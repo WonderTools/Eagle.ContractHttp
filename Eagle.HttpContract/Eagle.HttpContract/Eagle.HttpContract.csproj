@@ -1,7 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <AssemblyName>WonderTools.Eagle.HttpContract</AssemblyName>
+    <RootNamespace>WonderTools.Eagle.HttpContract</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>WonderTools</Authors>
+    <Company>WonderTools</Company>
+    <Description>Eagle Http Communication Contract</Description>
+    <Copyright>Copyright ©2019 WonderTools</Copyright>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/WonderTools/Eagle.ContractHttp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/WonderTools/Eagle.ContractHttp</RepositoryUrl>
+    <files>
+      <file src="Eagle.HttpContract\bin\Release\netstandard1.0\WonderTools.Eagle.Contract.dll" target="lib\WonderTools.Eagle.Contract.dll" />
+    </files>
+    <RepositoryType>GitHub</RepositoryType>
+
   </PropertyGroup>
 
 </Project>
