@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eagle.HttpContract", "Eagle.HttpContract\Eagle.HttpContract.csproj", "{1A89B5A9-59CC-4E05-88E1-343CB3B90CFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eagle.Contract", "Eagle.Contract\Eagle.Contract.csproj", "{8EF8E5EF-5C28-42F5-B0F2-30C12EBFB37F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A89B5A9-59CC-4E05-88E1-343CB3B90CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A89B5A9-59CC-4E05-88E1-343CB3B90CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A89B5A9-59CC-4E05-88E1-343CB3B90CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A89B5A9-59CC-4E05-88E1-343CB3B90CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EF8E5EF-5C28-42F5-B0F2-30C12EBFB37F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EF8E5EF-5C28-42F5-B0F2-30C12EBFB37F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EF8E5EF-5C28-42F5-B0F2-30C12EBFB37F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EF8E5EF-5C28-42F5-B0F2-30C12EBFB37F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68BCB2F6-8F2E-4A93-AF9A-036A82DADD8F}
+	EndGlobalSection
+EndGlobal
